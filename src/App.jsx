@@ -2,8 +2,9 @@ import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 import Skills from "./pages/Skills.jsx";
-
+import Footer from "./pages/Footer.jsx";
 
 function App() {
     return (
@@ -14,6 +15,8 @@ function App() {
                 <About />
                 <Projects />
                 <Skills />
+                <Contact />
+                <Footer />
             </main>
         </div>
     );
