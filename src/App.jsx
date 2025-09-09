@@ -1,7 +1,10 @@
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import About from "./pages/About";
-
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Skills from "./pages/Skills.jsx";
+import Footer from "./pages/Footer.jsx";
 
 function App() {
     return (
@@ -10,7 +13,10 @@ function App() {
             <main className="p-4 space-y-32">
                 <Home />
                 <About />
-
+                <Projects />
+                <Skills />
+                <Contect />
+                <Footer />
             </main>
         </div>
     );
