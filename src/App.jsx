@@ -1,5 +1,7 @@
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
+import About from "./pages/About";
+
 
 function App() {
     return (
@@ -7,6 +9,7 @@ function App() {
             <Sidebar />
             <main className="p-4 space-y-32">
                 <Home />
+                <About />
 
             </main>
         </div>

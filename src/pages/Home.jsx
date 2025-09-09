@@ -78,7 +78,7 @@ const Home = () => {
                         handle="AnantDevliyal"
                         status="Online"
                         contactText="Contact Me"
-                        avatarUrl="./public/Mypic.jpg"
+                        avatarUrl="/Mypic.jpg"
                         showUserInfo={true}
                         enableTilt={true}
                         onContactClick={() => console.log('Contect clicked')}
